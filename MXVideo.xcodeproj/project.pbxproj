@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B6687D51F4D62EB00166D43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6687D41F4D62EB00166D43 /* main.m */; };
+		5B6687D81F4D62EB00166D43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6687D71F4D62EB00166D43 /* AppDelegate.m */; };
+		5B6687DB1F4D62EB00166D43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6687DA1F4D62EB00166D43 /* ViewController.m */; };
+		5B6687E01F4D62EB00166D43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B6687DF1F4D62EB00166D43 /* Assets.xcassets */; };
+		5B6687E31F4D62EB00166D43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B6687E11F4D62EB00166D43 /* LaunchScreen.storyboard */; };
+		EBDE141B15A3FDCF0FC0BDA9 /* libPods-MXVideo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E47CC3C96102E09BBE0E873A /* libPods-MXVideo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		27895950437266D28B6826FE /* Pods-MXVideo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXVideo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MXVideo/Pods-MXVideo.debug.xcconfig"; sourceTree = "<group>"; };
+		5B6687D01F4D62EB00166D43 /* MXVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MXVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B6687D41F4D62EB00166D43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B6687D61F4D62EB00166D43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B6687D71F4D62EB00166D43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B6687D91F4D62EB00166D43 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5B6687DA1F4D62EB00166D43 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5B6687DF1F4D62EB00166D43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B6687E21F4D62EB00166D43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B6687E41F4D62EB00166D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E47CC3C96102E09BBE0E873A /* libPods-MXVideo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MXVideo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F50813AECB770C7094978E /* Pods-MXVideo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXVideo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MXVideo/Pods-MXVideo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B6687CD1F4D62EB00166D43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBDE141B15A3FDCF0FC0BDA9 /* libPods-MXVideo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B6687C71F4D62EB00166D43 = {
+			isa = PBXGroup;
+			children = (
+				5B6687D21F4D62EB00166D43 /* MXVideo */,
+				5B6687D11F4D62EB00166D43 /* Products */,
+				B896589C1FB4ABCD6B37404C /* Pods */,
+				D606D76F4261309F41A28182 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5B6687D11F4D62EB00166D43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B6687D01F4D62EB00166D43 /* MXVideo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B6687D21F4D62EB00166D43 /* MXVideo */ = {
+			isa = PBXGroup;
+			children = (
+				5B6687D61F4D62EB00166D43 /* AppDelegate.h */,
+				5B6687D71F4D62EB00166D43 /* AppDelegate.m */,
+				5B6687D91F4D62EB00166D43 /* ViewController.h */,
+				5B6687DA1F4D62EB00166D43 /* ViewController.m */,
+				5B6687DF1F4D62EB00166D43 /* Assets.xcassets */,
+				5B6687E11F4D62EB00166D43 /* LaunchScreen.storyboard */,
+				5B6687E41F4D62EB00166D43 /* Info.plist */,
+				5B6687D31F4D62EB00166D43 /* Supporting Files */,
+			);
+			path = MXVideo;
+			sourceTree = "<group>";
+		};
+		5B6687D31F4D62EB00166D43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B6687D41F4D62EB00166D43 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B896589C1FB4ABCD6B37404C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27895950437266D28B6826FE /* Pods-MXVideo.debug.xcconfig */,
+				F3F50813AECB770C7094978E /* Pods-MXVideo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D606D76F4261309F41A28182 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E47CC3C96102E09BBE0E873A /* libPods-MXVideo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B6687CF1F4D62EB00166D43 /* MXVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B6687E71F4D62EB00166D43 /* Build configuration list for PBXNativeTarget "MXVideo" */;
+			buildPhases = (
+				1357D7CF3F6720B575E3C621 /* [CP] Check Pods Manifest.lock */,
+				5B6687CC1F4D62EB00166D43 /* Sources */,
+				5B6687CD1F4D62EB00166D43 /* Frameworks */,
+				5B6687CE1F4D62EB00166D43 /* Resources */,
+				E90830DA9D2B723823AB312F /* [CP] Embed Pods Frameworks */,
+				619A50EB00758CB7A2865703 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MXVideo;
+			productName = MXVideo;
+			productReference = 5B6687D01F4D62EB00166D43 /* MXVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B6687C81F4D62EB00166D43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = kuroky;
+				TargetAttributes = {
+					5B6687CF1F4D62EB00166D43 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5B6687CB1F4D62EB00166D43 /* Build configuration list for PBXProject "MXVideo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B6687C71F4D62EB00166D43;
+			productRefGroup = 5B6687D11F4D62EB00166D43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B6687CF1F4D62EB00166D43 /* MXVideo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B6687CE1F4D62EB00166D43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B6687E31F4D62EB00166D43 /* LaunchScreen.storyboard in Resources */,
+				5B6687E01F4D62EB00166D43 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1357D7CF3F6720B575E3C621 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		619A50EB00758CB7A2865703 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MXVideo/Pods-MXVideo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E90830DA9D2B723823AB312F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MXVideo/Pods-MXVideo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B6687CC1F4D62EB00166D43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B6687DB1F4D62EB00166D43 /* ViewController.m in Sources */,
+				5B6687D81F4D62EB00166D43 /* AppDelegate.m in Sources */,
+				5B6687D51F4D62EB00166D43 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5B6687E11F4D62EB00166D43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B6687E21F4D62EB00166D43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B6687E51F4D62EB00166D43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B6687E61F4D62EB00166D43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B6687E81F4D62EB00166D43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27895950437266D28B6826FE /* Pods-MXVideo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MXVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emucoo.MXVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5B6687E91F4D62EB00166D43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3F50813AECB770C7094978E /* Pods-MXVideo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MXVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emucoo.MXVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B6687CB1F4D62EB00166D43 /* Build configuration list for PBXProject "MXVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B6687E51F4D62EB00166D43 /* Debug */,
+				5B6687E61F4D62EB00166D43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B6687E71F4D62EB00166D43 /* Build configuration list for PBXNativeTarget "MXVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B6687E81F4D62EB00166D43 /* Debug */,
+				5B6687E91F4D62EB00166D43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B6687C81F4D62EB00166D43 /* Project object */;
+}
