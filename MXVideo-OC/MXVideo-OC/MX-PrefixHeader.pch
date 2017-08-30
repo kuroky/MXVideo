@@ -1,0 +1,31 @@
+//
+//  MX-PrefixHeader.pch
+//  MXVideo-OC
+//
+//  Created by kuroky on 2017/8/28.
+//  Copyright © 2017年 kuroky. All rights reserved.
+//
+
+#ifndef MX_PrefixHeader_pch
+#define MX_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+#import "EMAppDefine.h"
+#import "EMProgressHUD.h"
+#import "CocoaLumberjack.h"
+#import "EMMacro.h"
+#import "Masonry.h"
+#import "UIColor+EMAdd.h"
+//#import "EMUserData.h"
+
+#ifdef DEBUG
+static const DDLogLevel ddLogLevel = DDLogLevelVerbose;
+#else
+static const DDLogLevel ddLogLevel = DDLogLevelError;
+#endif
+
+#endif
+
+#endif /* MX_PrefixHeader_pch */
