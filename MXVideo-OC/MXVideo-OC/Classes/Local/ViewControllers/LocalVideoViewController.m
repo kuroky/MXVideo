@@ -25,7 +25,8 @@
 }
 
 - (void)setupUI {
-    self.navigationItem.title = @"本地";
+    self.view.backgroundColor = [UIColor whiteColor];
+    self.navigationItem.title = @"资料库";
 }
 
 - (void)didReceiveMemoryWarning {

@@ -1,0 +1,32 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+inhibit_all_warnings!
+
+target 'MXVideo-OC' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for MXVideo-OC
+  pod 'AFNetworking', '~> 3.1.0'
+  #pod 'FMDB', '~> 2.7.2'
+  pod 'SDWebImage', '~> 4.0.0'
+  pod 'MBProgressHUD', '~> 1.0.0'
+  #pod 'SAMKeychain', '~> 1.5.2'
+  pod 'YYModel', '~> 1.0.4'
+  pod 'YYCache', '~> 1.0.4'
+  #pod 'YYText', '~> 1.0.7'
+  pod 'YYImage'
+  pod 'Masonry', '~> 1.0.2'
+  pod 'MJRefresh', '~> 3.1.12'
+  pod 'IQKeyboardManager', '~> 4.0.10'
+  pod 'CocoaLumberjack', '~> 3.2.0'
+  pod 'YTKNetwork', '~> 2.0.3'
+  #pod 'UMengAnalytics-NO-IDFA'
+  pod 'Bugly', '~> 2.4.8'
+  #pod 'RongCloudIM/IMKit', '~> 2.8.13'
+  #pod 'JPush', '~> 3.0.5'
+  #pod 'Qiniu', '~> 7.1.5'
+  #pod 'AMapLocation-NO-IDFA', '~> 2.4.0'
+  pod 'MXFileManager'
+
+end

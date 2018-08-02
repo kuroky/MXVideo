@@ -60,6 +60,10 @@
 		5B5D88781F568C270033C8D7 /* EMRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5D88751F568C270033C8D7 /* EMRefreshFooter.m */; };
 		5B5D88791F568C270033C8D7 /* EMRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5D88771F568C270033C8D7 /* EMRefreshHeader.m */; };
 		5B5D887C1F5693990033C8D7 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5D887B1F5693990033C8D7 /* SettingViewController.m */; };
+		5B5D88801F5694480033C8D7 /* SettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5D887E1F5694480033C8D7 /* SettingCell.m */; };
+		5B5D88811F5694480033C8D7 /* SettingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B5D887F1F5694480033C8D7 /* SettingCell.xib */; };
+		5B5D88841F56947B0033C8D7 /* SettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5D88831F56947B0033C8D7 /* SettingItem.m */; };
+		5B5D88861F5695DA0033C8D7 /* SettingData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B5D88851F5695DA0033C8D7 /* SettingData.plist */; };
 		7B94E2A85A859E326F664119 /* libPods-MXVideo-OC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49A38C5C6122CD58EC405D22 /* libPods-MXVideo-OC.a */; };
 /* End PBXBuildFile section */
 
@@ -169,6 +173,12 @@
 		5B5D88771F568C270033C8D7 /* EMRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMRefreshHeader.m; sourceTree = "<group>"; };
 		5B5D887A1F5693990033C8D7 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
 		5B5D887B1F5693990033C8D7 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		5B5D887D1F5694480033C8D7 /* SettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingCell.h; sourceTree = "<group>"; };
+		5B5D887E1F5694480033C8D7 /* SettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingCell.m; sourceTree = "<group>"; };
+		5B5D887F1F5694480033C8D7 /* SettingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingCell.xib; sourceTree = "<group>"; };
+		5B5D88821F56947B0033C8D7 /* SettingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingItem.h; sourceTree = "<group>"; };
+		5B5D88831F56947B0033C8D7 /* SettingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingItem.m; sourceTree = "<group>"; };
+		5B5D88851F5695DA0033C8D7 /* SettingData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SettingData.plist; sourceTree = "<group>"; };
 		665211C7135DC752135B321A /* Pods-MXVideo-OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXVideo-OC.release.xcconfig"; path = "Pods/Target Support Files/Pods-MXVideo-OC/Pods-MXVideo-OC.release.xcconfig"; sourceTree = "<group>"; };
 		D411A658D8F900B38F5EE729 /* Pods-MXVideo-OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXVideo-OC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MXVideo-OC/Pods-MXVideo-OC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -373,6 +383,8 @@
 		5B39761B1F540CB4006C6551 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				5B5D88821F56947B0033C8D7 /* SettingItem.h */,
+				5B5D88831F56947B0033C8D7 /* SettingItem.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -391,6 +403,10 @@
 		5B39761D1F540CB4006C6551 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5B5D88851F5695DA0033C8D7 /* SettingData.plist */,
+				5B5D887D1F5694480033C8D7 /* SettingCell.h */,
+				5B5D887E1F5694480033C8D7 /* SettingCell.m */,
+				5B5D887F1F5694480033C8D7 /* SettingCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -793,6 +809,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B3976231F540CEA006C6551 /* Assets.xcassets in Resources */,
+				5B5D88811F5694480033C8D7 /* SettingCell.xib in Resources */,
+				5B5D88861F5695DA0033C8D7 /* SettingData.plist in Resources */,
 				5B3976241F540CEA006C6551 /* LaunchScreen.storyboard in Resources */,
 				5B5D886F1F56899C0033C8D7 /* ResVideoCell.xib in Resources */,
 				5B3976251F540CEA006C6551 /* Info.plist in Resources */,
@@ -862,11 +880,13 @@
 				5B5D886E1F56899C0033C8D7 /* ResVideoCell.m in Sources */,
 				5B3976A71F54259A006C6551 /* UIDevice+EMAdd.m in Sources */,
 				5B39769E1F54259A006C6551 /* NSDate+EMDate.m in Sources */,
+				5B5D88801F5694480033C8D7 /* SettingCell.m in Sources */,
 				5B5D885E1F551B0F0033C8D7 /* LocalVideoViewController.m in Sources */,
 				5B3976AA1F54259A006C6551 /* UIImage+EMCompress.m in Sources */,
 				5B5D887C1F5693990033C8D7 /* SettingViewController.m in Sources */,
 				5B3976991F54259A006C6551 /* EMCache.m in Sources */,
 				5B5D88781F568C270033C8D7 /* EMRefreshFooter.m in Sources */,
+				5B5D88841F56947B0033C8D7 /* SettingItem.m in Sources */,
 				5B3976AF1F54259A006C6551 /* UIView+EMAdd.m in Sources */,
 				5B3976A01F54259A006C6551 /* NSNumber+EMNumber.m in Sources */,
 				5B39769D1F54259A006C6551 /* NSData+EMData.m in Sources */,

@@ -51,7 +51,7 @@
     navi2.tabBarItem = item2;
     
     SettingViewController *settingVC = [SettingViewController new];
-    UITabBarItem *item3 = [[UITabBarItem alloc] initWithTitle:@"我的"
+    UITabBarItem *item3 = [[UITabBarItem alloc] initWithTitle:@"设置"
                                                         image:nil
                                                 selectedImage:nil];
     MXBaseNavigationController *navi3 = [[MXBaseNavigationController alloc] initWithRootViewController:settingVC];
